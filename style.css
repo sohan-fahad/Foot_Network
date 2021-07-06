@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+.flexible-container {
+    display: flex;
+}
+.orange-text {
+    color: #fc8b47 ;
+}
+.greyColor-text {
+    color: #575757;
+}
+/* Nav Area CSS Start*/
+
+.navBar {
+    background-image: linear-gradient(45deg,#fb954a, #ff4b30);
+    height: 100px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.NavTitle {
+    color: white;
+    padding: 20px 70px;
+    width: 50%;
+}
+
+.NavManu{
+
+    width: 50%;
+}
+
+.NavManu ul {
+    list-style: none;
+
+}
+
+.NavManu li {
+    display: inline;
+    float: left;
+}
+
+.NavManu a {
+    text-decoration: none;
+    display: block;
+    margin: 20px 20px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+/* Nav Area CSS End */
+
+/* Header Area CSS */
+
+.header_area {
+    float: left;
+    width: 40%;
+    padding: 0 5%;
+    margin: auto;
+}
+.area-Section img {
+    width: 100%;
+}
+
+.area-Section #paragraph-color {
+    color: #575757;
+}
+
+
+.btn-button {
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg,#fb954a, #ff4b30);
+    border-radius: 20px;
+}
+
+.link_button {
+    padding-top: 20px;
+}
+
+/* Header Area Css End */
+
+/* About Area Css Start */
+#about-area {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#abtSection-Img {
+    width: 40%;
+    padding-left: 10%;
+    margin-top: 100px;
+}
+
+#abtSection-Img img {
+    height: 500px;
+    width: auto;
+}
+
+#abtSection-info {
+    width: 40%;
+    padding-right: 10%;
+    margin: auto;
+}
+
+#abtSection-info h2 {
+    color: #707070;
+}
+
+/* Aout Area CSS End */
+
+/* Recipie Area CSS Start */
+
+.recipies-Area {
+    text-align: center;
+    margin: auto;
+} 
+
+.recipi-item {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #cecdcd ;
+    height: 450px;
+    margin: 0 3.33%;
+    display: inline-block;
+}
+
+.recipi-item .recipi-img {
+    height: 50%;
+    padding: 5%;
+}
+.recipi-item .recipi-img  img{
+    width: 100%;
+    height: 100%;
+}
+
+.recipi-item .recipi-info {
+    text-align: left;
+    height: 30%;
+    padding: 5%;
+}
+.recipi-item .recipi-info p {
+    font-size: 15px;
+}
+
+/* Recipie Area CSS END */
+
+/* Social Media Counting Area CSS Start */
+
+.socialMedia_counting {
+    box-shadow: 1px 1px 20px #e2e2e2;
+    height: 200px;
+    width: 93%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.social-follower {
+    text-align: left;
+    width: 30%;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+.social-follower p {
+    margin-top: -20px;
+}
+
+/* Social Media COunting Area CSS END */
+
+/* Contact Area CSS Start */
+
+.contact_area {
+    background-image: url(images/shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: covers;
+}
+.inner_contact {
+    padding: 50px 0;
+    width: 80%;
+    margin:0 auto;
+}
+
+.contact_area h2 {
+    text-align: center;
+}
+
+.main_contact form {
+    width: 100%;
+    text-align: center;
+}
+
+.main_contact input {
+    background-color:#fff;
+    border: 1px solid #fc8b47;
+    width: 41%;
+    padding: 15px 3%;
+    float: left;
+    margin: 0 1% 2%;
+    border-radius: 5px;
+}
+
+.contact_area .main_contact textarea{
+    background-color: #fff;
+    border: 1px solid #fc8b47;
+    width: 92%;
+    padding: 4% 2%;
+    float: left;
+    margin: 0 1% 2%;
+    border-radius: 5px;
+}
+
+.contact_area .main_contact input[type="submit"] {
+    background-image: linear-gradient(45deg,#fb954a, #ff4b30);
+    width: 250px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    float: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.contact_area .main_contact input[type="submit"]:hover {
+    background-color: #97455f;
+    transition: 0.5s;
+}
+
+/* Contact Area CSS End */
+
+/* footer Area CSS Start */
+
+.footer_area {
+    height: 200px;
+    width: auto;
+    text-align: center;
+    background-color: #0b0e17;
+}
+
+.footer_area h2 {
+    color: white;
+    padding-top: 30px;
+}
+
+.footer_area p  {
+    color: white;
+    padding-bottom: 30px;
+}
+
+/* Footer Area CSS End */
